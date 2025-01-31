@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Castello Hotel</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader-bg"></div>
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="preloader-position loader"> <span></span> </div>
+        </div>
+    </div>
+    <!-- Progress scroll totop -->
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-wrapper">
+                <a class="logo" href="index.html"> <img src="img/logo.png" class="logo-img" alt=""> </a>
+            </div>
+            <!-- Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="ti-menu"></i></span> </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">الرئيسية</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#whous">من نحن</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#facilities">رؤيتنا</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#partners">شركاؤنا</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contactus">اتصل بنا</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Slider -->
+    <header class="header slider-fade">
+        <div class="owl-carousel owl-theme">
+            <!-- التعتيم على الصورة يتم باستخدام "data-overlay-dark="number". يمكنك تغييره باستخدام الأرقام من 0-9. -->
+            <div class="text-center item bg-img" data-overlay-dark="2" data-background="img/slider/2.jpg">
+                <div class="v-middle caption">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 offset-md-1">
+                                <span>
+                                    <i class="star-rating"></i>
+                                    <i class="star-rating"></i>
+                                    <i class="star-rating"></i>
+                                </span>
+                                <h4>فندق فاخر وأفضل منتجع</h4>
+                                <h1>استمتع بتجربة فاخرة</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center item bg-img" data-overlay-dark="2" data-background="img/slider/3.jpg">
+                <div class="v-middle caption">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 offset-md-1">
+                                <span>
+                                    <i class="star-rating"></i>
+                                    <i class="star-rating"></i>
+                                    <i class="star-rating"></i>
+                                </span>
+                                <h4>مكان فريد للاسترخاء والاستمتاع</h4>
+                                <h1>القاعدة المثالية لك</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center item bg-img" data-overlay-dark="3" data-background="img/slider/1.jpg">
+                <div class="v-middle caption">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 offset-md-1">
+                                <span>
+                                    <i class="star-rating"></i>
+                                    <i class="star-rating"></i>
+                                    <i class="star-rating"></i>
+                                    <i class="star-rating"></i>
+                                    <i class="star-rating"></i>
+                                </span>
+                                <h4>تجربة الفخامة المطلقة</h4>
+                                <h1>استمتع بأفضل لحظات الحياة</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- حجز الشريحة -->
+        <div class="reservation">
+            <a href="tel:8551004444">
+                <div class="icon d-flex justify-content-center align-items-center">
+                    <i class="flaticon-call"></i>
+                </div>
+                <div class="call"><span>000000</span> <br>اتصل بنا</div>
+            </a>
+        </div>
+    </header>
+    
+    <!-- Booking Search -->
+    <!-- <div class="booking-wrapper">
+            <div class="container">
+                <div class="booking-inner clearfix">
+                    <form action="https://duruthemes.com/demo/html/cappa/demo1-light/rooms.html" class="form1 clearfix">
+                        <div class="col1 c1">
+                            <div class="input1_wrapper">
+                                <label>Check in</label>
+                                <div class="input1_inner">
+                                    <input type="text" class="form-control input datepicker" placeholder="Check in">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col1 c2">
+                            <div class="input1_wrapper">
+                                <label>Check out</label>
+                                <div class="input1_inner">
+                                    <input type="text" class="form-control input datepicker" placeholder="Check out">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col2 c3">
+                            <div class="select1_wrapper">
+                                <label>Adults</label>
+                                <div class="select1_inner">
+                                    <select class="select2 select" style="width: 100%">
+                                        <option value="1">1 Adult</option>
+                                        <option value="2">2 Adults</option>
+                                        <option value="3">3 Adults</option>
+                                        <option value="4">4 Adults</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col2 c4">
+                            <div class="select1_wrapper">
+                                <label>Children</label>
+                                <div class="select1_inner">
+                                    <select class="select2 select" style="width: 100%">
+                                        <option value="1">Children</option>
+                                        <option value="1">1 Child</option>
+                                        <option value="2">2 Children</option>
+                                        <option value="3">3 Children</option>
+                                        <option value="4">4 Children</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col2 c5">
+                            <div class="select1_wrapper">
+                                <label>Rooms</label>
+                                <div class="select1_inner">
+                                    <select class="select2 select" style="width: 100%">
+                                        <option value="1">1 Room</option>
+                                        <option value="2">2 Rooms</option>
+                                        <option value="3">3 Rooms</option>
+                                        <option value="4">4 Rooms</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col3 c6">
+                            <button type="submit" class="btn-form1-submit">Check Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </div> -->
+    <!-- About -->
+    <section class="about section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-30 animate-box" data-animate-effect="fadeInUp">
+                    <span>
+                        <i class="star-rating"></i>
+                        <i class="star-rating"></i>
+                        <i class="star-rating"></i>
+          
+                    </span>
+                    <div class="section-title">قصتنا: ولادة من الخاصرة </div>
+                    <p>
+                        تأسست كاستيلو للخدمات الفندقية قبل عشرين عاماً تحت قيادة الأستاذ سعد البشري. من رحم التحديات التقليدية وخبرات السنين، ولدت فكرة كاستيلو الرقمية لتواكب الطفرة التكنولوجية والمواسم الكبرى في المملكة العربية السعودي
+                    </p>
+                   
+                </div>
+                <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp">
+                    <img src="img/rooms/8.jpg" alt="" class="mt-90 mb-30">
+                </div>
+                <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp">
+                    <img src="img/rooms/2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- whous -->
+      <section class="whous section-padding " id="whous">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">من نحن؟</div>
+                </div>
+                <hr>
+            </div>
+            <div class="row text-center">
+                <!-- خبرة راسخة -->
+                <div class="col-md-6">
+                    <div class="single-facility animate-box" data-animate-effect="fadeInUp">
+                        <h5>كوادر استثنائية</h5>
+                        
+                        <p>متمتعين بعناصر وكوادر استثنائية
+                            تحت علامات تجارية خلاقة</p>
+                        <div class="facility-shape"> <span class="fas fa-certificate"></span> </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="single-facility animate-box" data-animate-effect="fadeInUp">
+                        <h5>خدمات متميزة</h5>
+                        <p>
+                            نحن مجموعة من الخدمات المتميزة
+التي تلبي احتياجات النزلاء
+                        </p>
+                        <div class="facility-shape"> <span class="fas fa-certificate"></span> </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="single-facility animate-box" data-animate-effect="fadeInUp">
+                        <h5> ابتكار وتكنولوجيا</h5>
+                        <p>
+                            مع التركيز على الابتكار والتكنولوجيا
+                            لضمان تحقيق أعلى مستويات الرضا                        </p>
+                        <div class="facility-shape"> <span class="fas fa-certificate"></span> </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="single-facility animate-box" data-animate-effect="fadeInUp">
+                        <h5> تجربة فريدة</h5>
+                        <p>نسعى إلى تقديم تجربة فريدة من نوعها
+                            تجمع بين الفخامة والراحة                       </p>
+                        <div class="facility-shape"> <span class="fas fa-certificate"></span> </div>
+                    </div>
+                </div>
+            
+
+            </div>
+            
+        </div>
+    </section>
+ 
+
+    <!-- Rooms -->
+    <section class="rooms1 section-padding bg-cream" data-scroll-index="1">
+        <div class="container">
+    
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="item">
+                        <div class="position-re o-hidden"> 
+                            <img src="img/rooms/1.jpg" alt=""> 
+                        </div> 
+                        <div class="con">
+                            <h6><a href="">تحقيق التطلعات</a></h6>
+                            <h5><a href="#">نلبي تطلعات الزوار.</a></h5>
+                            <div class="line"></div>
+                            <div class="row facilities">
+                                <div class="col col-md-5 text-end">
+                                    <div class="permalink"><a href="#"></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6">
+                    <div class="item">
+                        <div class="position-re o-hidden"> 
+                            <img src="img/rooms/11.jpg" alt=""> 
+                        </div> 
+                        <div class="con">
+                            <h6><a href="">الريادة</a></h6>
+                            <h5><a href="#">في كاستيلو، نطمح إلى أن نكون روادًا في تقديم تجربة فندقية فاخرة.</a></h5>
+                            <div class="line"></div>
+                            <div class="row facilities">
+                                <div class="col col-md-5 text-end">
+                                    <div class="permalink"><a href="#"></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6">
+                    <div class="item">
+                        <div class="position-re o-hidden"> 
+                            <img src="img/rooms/12.jpg" alt=""> 
+                        </div> 
+                        <div class="con">
+                            <h6><a href="">الخيار الأول</a></h6>
+                            <h5><a href="#">مما يجعلنا الخيار الأول لمن يبحثون عن الفخامة والراحة.</a></h5>
+                            <div class="line"></div>
+                            <div class="row facilities">
+                                <div class="col col-md-5 text-end">
+                                    <div class="permalink"><a href="#"></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6">
+                    <div class="item">
+                        <div class="position-re o-hidden"> 
+                            <img src="img/rooms/13.jpg" alt=""> 
+                        </div> 
+                        <div class="con">
+                            <h6><a href="">الضيافة العربية</a></h6>
+                            <h5><a href="#">تعكس القيم الأصيلة للضيافة العربية.</a></h5>
+                            <div class="line"></div>
+                            <div class="row facilities">
+                                <div class="col col-md-5 text-end">
+                                    <div class="permalink"><a href="#"></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    
+   
+ 
+    <!-- Facilties -->
+    <section class="facilties section-padding" id="facilities">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">رؤيتنا ورسالتنا</div>
+                </div>
+                <hr>
+            </div>
+            <div class="row">
+                <!-- خبرة راسخة -->
+                <div class="col-md-4">
+                    <div class="single-facility animate-box" data-animate-effect="fadeInUp">
+                        <span class="fas fa-award"></span>
+                        <h5>خبرة راسخة</h5>
+                        <p>عشرون عاماً من الخبرة في قطاع الضيافة</p>
+                        <p>قيادة متمرسة تحت إدارة الأستاذ سعد البشري</p>
+                        <div class="facility-shape"> <span class="fas fa-certificate"></span> </div>
+                    </div>
+                </div>
+            
+                <!-- التميز الرقمي -->
+                <div class="col-md-4">
+                    <div class="single-facility animate-box" data-animate-effect="fadeInUp">
+                        <span class="fas fa-robot"></span>
+                        <h5>التميز الرقمي</h5>
+                        <p>دمج الذكاء الاصطناعي في إدارة الفنادق</p>
+                        <p>تعظيم الاستثمارات عبر الحلول التقنية المتقدمة</p>
+                        <div class="facility-shape"> <span class="fas fa-microchip"></span> </div>
+                    </div>
+                </div>
+            
+                <!-- الخدمات الاستثنائية -->
+                <div class="col-md-4">
+                    <div class="single-facility animate-box" data-animate-effect="fadeInUp">
+                        <span class="fas fa-hotel"></span>
+                        <h5>الخدمات الاستثنائية</h5>
+                        <p>فنادق ثلاث نجوم بمستوى خدمات سبع نجوم</p>
+                        <p>أكبر شبكة فندقية في فئتها</p>
+                        <div class="facility-shape"> <span class="fas fa-star"></span> </div>
+                    </div>
+                </div>
+            
+                <!-- الجاهزية للمستقبل -->
+                <div class="col-md-4">
+                    <div class="single-facility animate-box" data-animate-effect="fadeInUp">
+                        <span class="fas fa-globe"></span>
+                        <h5>الجاهزية للمستقبل</h5>
+                        <p>استعداد تام لاستضافة زوار كأس العالم</p>
+                        <p>جاهزية لاستقبال ضيوف اكسبو المملكة 2030</p>
+                        <div class="facility-shape"> <span class="fas fa-calendar-alt"></span> </div>
+                    </div>
+                </div>
+            
+                <!-- التجربة المتكاملة -->
+                <div class="col-md-4">
+                    <div class="single-facility animate-box" data-animate-effect="fadeInUp">
+                        <span class="fas fa-gem"></span>
+                        <h5>التجربة المتكاملة</h5>
+                        <p>خدمات متميزة تجمع بين الأصالة والحداثة</p>
+                        <p>تناغم بين الراحة والرفاهية</p>
+                        <div class="facility-shape"> <span class="fas fa-spa"></span> </div>
+                    </div>
+                </div>
+            
+                <!-- التزامنا -->
+                <div class="col-md-4">
+                    <div class="single-facility animate-box" data-animate-effect="fadeInUp">
+                        <span class="fas fa-handshake"></span>
+                        <h5>التزامنا</h5>
+                        <p>نلتزم بتقديم تجربة ضيافة استثنائية تجمع بين التقنيات الحديثة والخدمات الراقية</p>
+                        <p>مع الحفاظ على أعلى معايير الجودة والرفاهية لضيوفنا</p>
+                        <div class="facility-shape"> <span class="fas fa-thumbs-up"></span> </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+ 
+   <!-- الخدمات -->
+<section class="services section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 p-0 animate-box" data-animate-effect="fadeInLeft">
+                <div class="img left">
+                    <a href="restaurant.html"><img src="img/restaurant/1.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="col-md-6 p-0 bg-cream valign animate-box" data-animate-effect="fadeInRight">
+                <div class="content">
+                    <div class="cont text-left">
+                        <div class="info">
+                        </div>
+                        <h4>تعزيز تجربة الضيوف</h4>
+                        <p>تعزيز تجربة الضيوف من خلال تقديم شقق فندقية فاخرة ومرافق متكاملة تلبي جميع احتياجاتهم، مع الاستفادة من الحلول التكنولوجية الذكية.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 bg-cream p-0 order2 valign animate-box" data-animate-effect="fadeInLeft">
+                <div class="content">
+                    <div class="cont text-left">
+                        <div class="info">
+                        </div>
+                        <h4>نمو مستدام</h4>
+                        <p>تحقيق نمو مستدام في سوق الضيافة من خلال تقديم خدمات مبتكرة تعكس أعلى معايير الجودة.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 p-0 order1 animate-box" data-animate-effect="fadeInRight">
+                <div class="img">
+                    <a href="spa-wellness.html"><img src="img/restaurant/2.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 p-0 animate-box" data-animate-effect="fadeInLeft">
+                <div class="img left">
+                    <a href="spa-wellness.html"><img src="img/spa/1.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="col-md-6 p-0 bg-cream valign animate-box" data-animate-effect="fadeInRight">
+                <div class="content">
+                    <div class="cont text-left">
+                        <div class="info">
+                        </div>
+                        <h4>بناء شراكات استراتيجية</h4>
+                        <p>إقامة شراكات استراتيجية مع الشركات المحلية والدولية لتعزيز مكانتنا في السوق.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Reservation & Booking Form -->
+   
+
+  
+
+    <!-- Clients -->
+    <section class="clients" id="partners">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                <div class="owl-carousel owl-theme">
+                    <div class="clients-logo">
+                        <a href="#0"><img src="img/partners/1.png" alt=""></a>
+                    </div>
+                    <div class="clients-logo">
+                        <a href="#0"><img src="img/partners/2.png" alt=""></a>
+                    </div>
+                    <div class="clients-logo">
+                        <a href="#0"><img src="img/partners/3.png" alt=""></a>
+                    </div>
+                    <div class="clients-logo">
+                        <a href="#0"><img src="img/partners/4.png" alt=""></a>
+                    </div>
+                    <div class="clients-logo">
+                        <a href="#0"><img src="img/partners/5.png" alt=""></a>
+                    </div>
+                    <div class="clients-logo">
+                        <a href="#0"><img src="img/partners/6.png" alt=""></a>
+                    </div>
+                    <div class="clients-logo">
+                        <a href="#0"><img src="img/partners/7.png" alt=""></a>
+                    </div>
+                    <div class="clients-logo">
+                        <a href="#0"><img src="img/partners/8.png" alt=""></a>
+                    </div>
+                    <div class="clients-logo">
+                        <a href="#0"><img src="img/partners/9.png" alt=""></a>
+                    </div>
+                    <div class="clients-logo">
+                        <a href="#0"><img src="img/partners/10.png" alt=""></a>
+                    </div>
+                    <div class="clients-logo">
+                        <a href="#0"><img src="img/partners/11.png" alt=""></a>
+                    </div>
+
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact section-padding" id="contactus">
+        <div class="container">
+            <div class="row mb-90">
+                <div class="col-md-4 mb-60">
+
+                    <div class="reservations mb-30">
+                        <div class="icon"><span class="flaticon-call"></span></div>
+                        <div class="text">
+                            <a href="tel:855-100-4444"> 000000 </a>
+                        </div>
+                    </div>
+
+                </div>
+                   
+                <div class="col-md-4 mb-60">
+                    <div class="reservations mb-30">
+                        <div class="icon"><span class="flaticon-envelope"></span></div>
+                        <div class="text">
+                            <a href="mailto:example@email.com">example@email.com</a>
+                        </div>
+                    </div>
+                </div>
+                    
+                <div class="col-md-4 mb-60">
+
+                    <div class="reservations">
+                        <div class="icon"><span class="flaticon-location-pin"></span></div>
+                        <div class="text">
+                            <a href="">
+                                location
+                            </a>
+                           
+                            
+                        </div>
+                    </div>
+                    </div>
+
+                
+               
+                <div class="col-md-12 mb-30 offset-md-1">
+                    <h3>تواصله معنا الأن</h3>
+                    <form method="post" class="contact__form" action="#">
+                        <!-- form message -->
+                            <div class="col-12">
+                                <div class="alert alert-success contact__msg" style="display: none" role="alert"> تم إرسال رسالتك بنجاح ، سيتم التواصل معك في اقرب وقت </div>
+                            </div>
+                      
+                        <!-- form elements -->
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input name="name" type="text" placeholder="اسمك *" required>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input name="email" type="email" placeholder="بريدك الإلكتروني *" required>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input name="phone" type="text" placeholder="رقمك *" required>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input name="subject" type="text" placeholder="الموضوع *" required>
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <textarea name="message" id="message" cols="30" rows="4" placeholder="الرسالة *" required></textarea>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" class="butn-dark2"><span>إرسال الرسالة</span></button>
+                            </div>
+                        </div>
+                        
+                    </form>
+                </div>
+
+             
+            </div>
+         
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+    
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer-bottom-inner">
+                            <p class="footer-bottom-copy-right">© Copyright 2025 by <a href="#">Castello</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.isotope.v3.0.2.js"></script>
+    <script src="js/pace.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/select2.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+
+</html>
