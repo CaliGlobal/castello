@@ -54,6 +54,7 @@ body {
     font-smoothing: antialiased;
 }
 * {
+    text-align: right;
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
@@ -866,11 +867,14 @@ color: #aa8453;
     padding-left: 12px;
 }
 .navbar .navbar-nav .nav-link.nav-color {
+    text-align: right;
+
     color: #fff;
 }
-.navbar .navbar-nav .nav-link:hover {
+/* .navbar .navbar-nav .nav-link:hover {
+
     color: #aa8453;
-}
+} */
 .navbar .navbar-nav .active {
     color: #aa8453 !important;
 }
