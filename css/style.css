@@ -871,10 +871,10 @@ color: #aa8453;
 
     color: #fff;
 }
-/* .navbar .navbar-nav .nav-link:hover {
+.navbar .navbar-nav .nav-link:hover {
 
     color: #aa8453;
-} */
+}
 .navbar .navbar-nav .active {
     color: #aa8453 !important;
 }
