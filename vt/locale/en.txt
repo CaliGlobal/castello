@@ -1,0 +1,45 @@
+#: locale=en
+
+## Media
+
+### Audio
+audiores_6AA6698F_48AD_BE36_41BB_7AEA340B78FE.mp3Url = media/audio_6D78E39C_48AD_9259_41C3_FB0E598186B4_en.mp3
+
+### Title
+panorama_738C6EF6_48AA_93E9_41B0_3A9D6FEA8092.label = 01
+panorama_4403A791_48A5_922A_41B1_8EB999FEEFD3.label = 01
+panorama_427C8E1A_48A5_9259_41C0_3EB6C5002827.label = 02
+panorama_749F3A60_48AA_B2EA_41BF_B72AB3772127.label = 02
+panorama_70D68EDD_48A5_F3DA_41CF_EE0B9DB1CD6E.label = 03
+panorama_427F2214_48A5_B229_41CF_5A77F705C475.label = 03
+panorama_427F74F1_48A5_B7EB_41D0_32DBA7630F27.label = 04
+panorama_7E6AD3A0_48A5_926A_41D1_6B170573C245.label = 04
+panorama_427007CC_48A5_B23A_41D2_23C76574320C.label = 05
+panorama_7E62782F_48A5_9E76_41C1_AFE77C6CAE0A.label = 05
+panorama_7E57FC4A_48A5_9639_41BC_1AED33A1E9A7.label = 06
+video_58FEBDC1_48AD_962A_41B0_9A2842287D57.label = 7d014952-b49b-4829-8a77-bf60bc574009
+
+### Video
+videolevel_6D1AEC91_48AA_962B_41D1_C3E4702CC2AA.url = media/video_58FEBDC1_48AD_962A_41B0_9A2842287D57_en.mp4
+videolevel_6D1AEC91_48AA_962B_41D1_C3E4702CC2AA.posterURL = media/video_58FEBDC1_48AD_962A_41B0_9A2842287D57_poster_en.jpg
+
+### Video Subtitles
+
+## Skin
+
+### Button
+Button_6CD71256_48E5_729F_41B8_C6A0BF63DE00.label = Hotel 1
+Button_68A182A0_48E5_7269_41C1_A21136B80123.label = Hotel 2
+Button_68A162A0_48E5_7269_419A_7CFCC14E93BF.label = Hotel 3
+Button_68A182A0_48E5_7269_41C1_A21136B80123.pressedLabel = Inserdt Text
+Button_6897BFDD_48E6_91DB_41C0_3F557DC8EC7C.label = RECEPTION >
+
+### Multiline Text
+HTMLText_68A0D2A0_48E5_7269_41D0_C3C6EAAF570B.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:14px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:14px;font-family:'Oswald Regular';"><I>Company Name</I></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:14px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:14px;font-family:'Oswald Regular';"><I>www.loremipsum.com</I></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:14px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:14px;font-family:'Oswald Regular';"><I>info@loremipsum.com</I></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:14px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:14px;font-family:'Oswald Regular';"><I>Tlf.: +11 111 111 111</I></SPAN></SPAN></DIV></div>
+
+## Tour
+
+### Description
+
+### Title
+tour.name = Untitled 5
